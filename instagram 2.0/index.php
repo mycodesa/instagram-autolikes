@@ -10,10 +10,10 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
     exit;
 }
 
-$servername = "localhost";
-$db_username = "afcp_fehmi";
-$db_password = "FEHmi.3862";
-$dbname = "afcp_fehmi";
+$servername = "localhost"; // Update this with your actual server name if needed
+$db_username = "your_db_username"; // Replace with your actual database username
+$db_password = "your_db_password"; // Replace with your actual database password
+$dbname = "your_db_name"; // Replace with your actual database name
 
 $conn = new mysqli($servername, $db_username, $db_password, $dbname);
 if ($conn->connect_error) {
