@@ -5,7 +5,7 @@ error_reporting(E_ALL);
 
 require_once 'Api.php'; // SMM API sınıfını dahil et
 
-$api_key = '49dc3507e7f165416d32cfe68194391e'; // Instagram API anahtarınız
+$api_key = 'YOUR-APİ-KEY'; // Instagram API anahtarınız
 
 // Veritabanı bağlantısı
 $servername = "your_server_name";
