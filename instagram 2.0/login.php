@@ -6,10 +6,10 @@ if (isset($_POST['login'])) {
     $password = $_POST['password'];
 
     // Veritabanı bağlantısı
-    $servername = "localhost";
-    $db_username = "afcp_fehmi";
-    $db_password = "FEHmi.3862";
-    $dbname = "afcp_fehmi";
+    $servername = "your_server_name";
+    $username = "your_database_username";
+    $password = "your_database_password";
+    $dbname = "your_database_name";
 
     $conn = new mysqli($servername, $db_username, $db_password, $dbname);
     if ($conn->connect_error) {
