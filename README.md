@@ -1,15 +1,20 @@
-# Instagram Auto Likes PHP Script
+# Instagram Auto Engagement PHP Script
 
-This PHP script is designed to automatically like posts on Instagram based on specific tags. It interacts with the Instagram API, allowing you to automate likes after logging into your Instagram account.
+This PHP script is designed to automatically interact with Instagram posts, including likes, views, impressions, story views, and more, based on specific tags and criteria. It integrates with the Instagram API and supports various SMM APIs, allowing you to automate multiple engagement actions after logging into your Instagram account.
 
 ## Features
 
-- Automatically likes posts based on specified hashtags.
-- Easy integration with the Instagram API.
-- Simple setup and configuration process.
-- Secure database connections and password management.
-- Manage SMM APIs for extended functionalities.
-- Ideal for users who want to continuously boost their Instagram engagement automatically.
+- **Auto Likes**: Automatically likes posts based on specified hashtags.
+- **Auto Views**: Automatically increases views on posts and videos.
+- **Auto Impressions**: Boosts the number of impressions for your content, enhancing visibility.
+- **Auto Story Views**: Automates story views to increase story engagement.
+- **Auto Saves**: Automatically saves posts to enhance engagement metrics.
+- **Easy Integration**: Seamlessly integrates with the Instagram API and SMM APIs.
+- **Multiple SMM API Support**: Manage multiple SMM APIs for extended functionalities.
+- **Simple Setup**: Quick and straightforward setup and configuration process.
+- **Secure Management**: Secure database connections and password handling.
+- **Comprehensive Admin Control**: Manage SMM API settings, users, and engagement actions through an intuitive admin interface.
+- **Ideal for Continuous Engagement**: Perfect for users looking to continuously boost their Instagram profile engagement.
 
 ## Requirements
 
@@ -44,20 +49,20 @@ This PHP script is designed to automatically like posts on Instagram based on sp
    - Use the credentials set during installation to log in.
 
 2. **Add Instagram User**:
-   - Use the form to add Instagram usernames for the auto-like functionality.
-   - Select SMM API services to use for each user.
+   - Use the form to add Instagram usernames for the auto engagement functionalities.
+   - Select SMM API services to use for each user, including likes, views, impressions, saves, and story views.
 
 3. **Manage SMM APIs**:
    - Add or manage SMM API settings directly through the admin interface.
-   - Customize the minimum and maximum quantities for each service.
+   - Customize the minimum and maximum quantities for each service, enabling tailored engagement for each user.
 
 4. **Run Cron Jobs**:
    - Two cron scripts (`cron.php` and `cron2.php`) handle regular checks and interactions with Instagram and SMM APIs.
-   - Schedule these scripts using your server's cron scheduling tools (e.g., crontab).
+   - Schedule these scripts using your server's cron scheduling tools (e.g., crontab) to ensure continuous engagement.
 
 ## Buy Instagram Autolikes & Continuous Engagement Boost
 
-For those looking to **buy Instagram autolikes** and maintain continuous engagement on their profiles, this script offers an automated solution tailored for your needs. Learn more about boosting your Instagram likes automatically by visiting our comprehensive guide: [Instagram Auto Continuous Like Package](https://myinstafollow.com/instagram-auto-continuous-like-package/).
+For those looking to **buy Instagram autolikes** and maintain continuous engagement on their profiles, this script offers a comprehensive automated solution tailored for your needs. This tool can also automate views, impressions, story views, and more to maximize your profile's engagement. Learn more about boosting your Instagram automatically by visiting our comprehensive guide: [Instagram Auto Continuous Engagement Package](https://myinstafollow.com/instagram-auto-continuous-like-package/).
 
 ## Security
 
