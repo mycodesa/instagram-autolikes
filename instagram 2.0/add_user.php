@@ -1,8 +1,9 @@
 <?php
-$servername = "localhost";
-$username = "afcp_fehmi";
-$password = "FEHmi.3862";
-$dbname = "afcp_fehmi";
+$servername = "your_server_name";
+$username = "your_database_username";
+$password = "your_database_password";
+$dbname = "your_database_name";
+
 
 // Veritabanı bağlantısı
 $conn = new mysqli($servername, $username, $password, $dbname);
